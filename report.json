@@ -3,9 +3,9 @@
   "source": "新浪分钟K线 (sz000001, 5分钟, 5001根)",
   "analysis_level": "5分钟级别（含级别切换）",
   "bar_count": 5001,
-  "pens": 49,
-  "centers": 10,
-  "segments": 7,
+  "pens": 45,
+  "centers": 7,
+  "segments": 6,
   "diagnosis": {
     "latest": {
       "ts_code": "sz000001",
@@ -29,14 +29,14 @@
       "hist": 0.0010522406459565897
     },
     "latest_center": {
-      "start_index": 1385,
-      "end_index": 1444,
-      "start_date": "202606091110",
-      "end_date": "202606121105",
-      "zd": 11.12,
-      "zg": 11.19,
+      "start_index": 1289,
+      "end_index": 1437,
+      "start_date": "202606021005",
+      "end_date": "202606120945",
+      "zd": 11.08,
+      "zg": 11.1,
       "gg": 11.39,
-      "dd": 11.08,
+      "dd": 10.77,
       "direction": "down"
     },
     "centers": [],
@@ -47,14 +47,14 @@
         "score": 2,
         "confidence": "低",
         "evidence": [
-          "位于中枢上方或突破ZG=11.19"
+          "位于中枢上方或突破ZG=11.10"
         ],
         "counter_evidence": [
           "顶分型距离较远"
         ],
         "levels": {
-          "ZD": 11.12,
-          "ZG": 11.19
+          "ZD": 11.08,
+          "ZG": 11.1
         }
       },
       {
@@ -63,12 +63,12 @@
         "confidence": "低",
         "evidence": [],
         "counter_evidence": [
-          "未处于中枢下方，中枢[11.12,11.19]",
+          "未处于中枢下方，中枢[11.08,11.10]",
           "底分型距离较远"
         ],
         "levels": {
-          "ZD": 11.12,
-          "ZG": 11.19
+          "ZD": 11.08,
+          "ZG": 11.1
         }
       },
       {
@@ -80,8 +80,8 @@
           "未识别离开中枢的顶分型"
         ],
         "levels": {
-          "ZG": 11.19,
-          "ZD": 11.12
+          "ZG": 11.1,
+          "ZD": 11.08
         }
       },
       {
@@ -93,8 +93,8 @@
           "未识别离开中枢的底分型"
         ],
         "levels": {
-          "ZG": 11.19,
-          "ZD": 11.12
+          "ZG": 11.1,
+          "ZD": 11.08
         }
       },
       {
@@ -123,18 +123,18 @@
       "score": 2,
       "confidence": "低",
       "evidence": [
-        "位于中枢上方或突破ZG=11.19"
+        "位于中枢上方或突破ZG=11.10"
       ],
       "counter_evidence": [
         "顶分型距离较远"
       ],
       "levels": {
-        "ZD": 11.12,
-        "ZG": 11.19
+        "ZD": 11.08,
+        "ZG": 11.1
       }
     }
   },
-  "html_report": "/Users/josan.tang/Desktop/czsc/reports/000001.SZ__chan_points_20260613_141200.html",
+  "html_report": "/Users/josan.tang/Desktop/czsc/reports/000001.SZ__chan_points_20260613_182530.html",
   "default_timeframe": "5m",
   "timeframes": [
     {
@@ -157,7 +157,7 @@
       "bar_count": 5001,
       "merged_count": 1454,
       "fractal_candidate_count": 811,
-      "valid_fractal_count": 49,
+      "valid_fractal_count": 67,
       "source_candidates": [
         {
           "provider": "新浪分钟K线",
