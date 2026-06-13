@@ -1,0 +1,259 @@
+{
+  "stock": "SH000001 (上证指数)",
+  "source": "新浪分钟K线 (sh000001, 5分钟, 5001根)",
+  "analysis_level": "5分钟级别（含级别切换）",
+  "bar_count": 5001,
+  "pens": 47,
+  "centers": 9,
+  "segments": 6,
+  "diagnosis": {
+    "latest": {
+      "ts_code": "sh000001",
+      "trade_date": "202606121500",
+      "date": "2026-06-12 15:00",
+      "open": 4030.641,
+      "high": 4032.942,
+      "low": 4030.245,
+      "close": 4031.513
+    },
+    "ma_state": "男上位",
+    "ma": {
+      "ma5": 4029.955000000009,
+      "ma10": 4033.2524999999964,
+      "ma20": 4036.3188499999987,
+      "ma60": 4025.945316666667
+    },
+    "macd": {
+      "dif": -1.5366118870524588,
+      "dea": -0.14002963334464014,
+      "hist": -2.7931645074156375
+    },
+    "latest_center": {
+      "start_index": 3768,
+      "end_index": 4012,
+      "start_date": "202606031405",
+      "end_date": "202606121105",
+      "zd": 3958.437,
+      "zg": 4010.872,
+      "gg": 4107.046,
+      "dd": 3927.853,
+      "direction": "up"
+    },
+    "centers": [],
+    "pivots": [],
+    "signals": [
+      {
+        "label": "未确认第一类卖点",
+        "score": 2,
+        "confidence": "低",
+        "evidence": [
+          "位于中枢上方或突破ZG=4010.87"
+        ],
+        "counter_evidence": [
+          "顶分型距离较远"
+        ],
+        "levels": {
+          "ZD": 3958.437,
+          "ZG": 4010.872
+        }
+      },
+      {
+        "label": "未确认第一类买点",
+        "score": 0,
+        "confidence": "低",
+        "evidence": [],
+        "counter_evidence": [
+          "未处于中枢下方，中枢[3958.44,4010.87]",
+          "底分型距离较远"
+        ],
+        "levels": {
+          "ZD": 3958.437,
+          "ZG": 4010.872
+        }
+      },
+      {
+        "label": "未确认第三类买点",
+        "score": 0,
+        "confidence": "低",
+        "evidence": [],
+        "counter_evidence": [
+          "未识别离开中枢的顶分型"
+        ],
+        "levels": {
+          "ZG": 4010.872,
+          "ZD": 3958.437
+        }
+      },
+      {
+        "label": "未确认第三类卖点",
+        "score": 0,
+        "confidence": "低",
+        "evidence": [],
+        "counter_evidence": [
+          "未识别离开中枢的底分型"
+        ],
+        "levels": {
+          "ZG": 4010.872,
+          "ZD": 3958.437
+        }
+      },
+      {
+        "label": "未确认第二类买点",
+        "score": 0,
+        "confidence": "低",
+        "evidence": [],
+        "counter_evidence": [
+          "未形成底-顶-底结构"
+        ],
+        "levels": {}
+      },
+      {
+        "label": "未确认第二类卖点",
+        "score": 0,
+        "confidence": "低",
+        "evidence": [],
+        "counter_evidence": [
+          "未形成顶-底-顶结构"
+        ],
+        "levels": {}
+      }
+    ],
+    "current": {
+      "label": "当前无确认的一二三类买卖点",
+      "score": 2,
+      "confidence": "低",
+      "evidence": [
+        "位于中枢上方或突破ZG=4010.87"
+      ],
+      "counter_evidence": [
+        "顶分型距离较远"
+      ],
+      "levels": {
+        "ZD": 3958.437,
+        "ZG": 4010.872
+      }
+    }
+  },
+  "html_report": "/Users/josan.tang/Desktop/czsc/reports/SH000001__chan_points_20260613_005035.html",
+  "default_timeframe": "5m",
+  "timeframes": [
+    {
+      "key": "5m",
+      "label": "5分钟",
+      "available": true,
+      "source": "新浪分钟K线 (sh000001, 5分钟, 5001根)",
+      "bar_count": 5001,
+      "merged_count": 4036,
+      "fractal_candidate_count": 1702,
+      "valid_fractal_count": 154,
+      "source_candidates": [
+        {
+          "provider": "新浪分钟K线",
+          "label": "5分钟",
+          "available": true,
+          "bar_count": 5001,
+          "code": "sh000001",
+          "status": "可用，5001根",
+          "selected": true,
+          "error": ""
+        },
+        {
+          "provider": "东方财富",
+          "label": "5分钟",
+          "available": false,
+          "bar_count": 0,
+          "code": "",
+          "status": "不可用",
+          "selected": false,
+          "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+        },
+        {
+          "provider": "mootdx",
+          "label": "5分钟",
+          "available": false,
+          "bar_count": 0,
+          "code": "",
+          "status": "不可用",
+          "selected": false,
+          "error": "当前环境未安装 mootdx，无法使用通达信分钟线"
+        },
+        {
+          "provider": "baostock",
+          "label": "5分钟",
+          "available": false,
+          "bar_count": 0,
+          "code": "",
+          "status": "不可用",
+          "selected": false,
+          "error": "当前环境未安装 baostock，无法使用 baostock 分钟线"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "key": "30m",
+      "label": "30分钟",
+      "available": true,
+      "source": "新浪分钟K线 (sh000001, 30分钟, 5001根)",
+      "bar_count": 5001,
+      "merged_count": 3848,
+      "fractal_candidate_count": 1792,
+      "valid_fractal_count": 146,
+      "source_candidates": [
+        {
+          "provider": "新浪分钟K线",
+          "label": "30分钟",
+          "available": true,
+          "bar_count": 5001,
+          "code": "sh000001",
+          "status": "可用，5001根",
+          "selected": true,
+          "error": ""
+        },
+        {
+          "provider": "东方财富",
+          "label": "30分钟",
+          "available": false,
+          "bar_count": 0,
+          "code": "",
+          "status": "不可用",
+          "selected": false,
+          "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+        },
+        {
+          "provider": "mootdx",
+          "label": "30分钟",
+          "available": false,
+          "bar_count": 0,
+          "code": "",
+          "status": "不可用",
+          "selected": false,
+          "error": "当前环境未安装 mootdx，无法使用通达信分钟线"
+        },
+        {
+          "provider": "baostock",
+          "label": "30分钟",
+          "available": false,
+          "bar_count": 0,
+          "code": "",
+          "status": "不可用",
+          "selected": false,
+          "error": "当前环境未安装 baostock，无法使用 baostock 分钟线"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "key": "daily",
+      "label": "日线",
+      "available": true,
+      "source": "腾讯日线 (sh000001)",
+      "bar_count": 1000,
+      "merged_count": 794,
+      "fractal_candidate_count": 348,
+      "valid_fractal_count": 26,
+      "source_candidates": [],
+      "error": ""
+    }
+  ]
+}
